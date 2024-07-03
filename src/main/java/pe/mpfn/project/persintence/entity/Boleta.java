@@ -14,7 +14,7 @@ public class Boleta {
     private int idBoleta;
 
     @Column(name="id_personal")
-    private int id_personal;
+    private int idPersonal;
 
     private String fecha;
 
@@ -40,11 +40,11 @@ public class Boleta {
     }
 
     public int getId_personal() {
-        return id_personal;
+        return idPersonal;
     }
 
     public void setId_personal(int id_personal) {
-        this.id_personal = id_personal;
+        this.idPersonal = id_personal;
     }
 
     public String getFecha() {
